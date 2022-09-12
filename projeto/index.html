@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-home.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">Design Responsivo</h1>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn">Abrir/Fechar menu</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a></li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                <li><a class="menu-principal__item" href="portfolio.html" >Portfolio</a></li>
+                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header class="cabecalho-home">
+            <h2 class="cabecalho-home__titulo">TEXTO GRANDE AQUI</h2>
+            <p class="cabecalho-home__subtitulo">Texto menorzinho aqui</p>
+            <a class="cabecalho-home__role" href="#servicos">role para ver mais</a>
+        </header>
+        <section id="servicos" class="servicos"> <!-- Seção serviços -->
+            <h2 class="home__titulo">O que fazemos</h2>
+            <section class="servicos__item">
+                <img src="img/icone-desenvolvimento-web.png" alt="botão-desenvolvimento">
+                <h3>Desenvolvimento web</h3>
+                <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae</p>
+            </section>
+            <section class="servicos__item">
+                <img src="img/icone-carrinho-web.png" alt="carrinho de compras">
+                <h3>E-commerce</h3>
+                <p class="servicos__texto">Expedita, aliquid? Laboriosam non natus officiis rerum corporis in laborum </p>
+            </section>
+            <section class="servicos__item">
+                <img src="img/icone-cafe-web.png" alt="xícara de café">
+                <h3>Café</h3>
+                <p class="servicos__texto">corporis in laborum accusamus eius?</p>
+            </section>
+        </section> <!-- fim Seção serviços -->
+        <section class="depoimentos">  <!-- seção depoimentos-->
+            <h2 class="home__titulo home__titulo--branco">O que falam de nós</h2>
+            <section class="depoimentos__item">
+                <img class="depoimentos__img" src="img/pessoa-1.png" alt="Foto da pessoa x">
+                <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque inventore velit fuga quae hic, ab obcaecati quos iusto porro tempora, laudantium iure! Eius suscipit sint dolorem obcaecati iusto in.</p>
+                <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
+            </section>
+        </section> <!-- fim seção depoimentos-->
+    </main>
+    <footer class="rodape">
+        <div class="rodape__linha-1">
+            <div class="rodape__coluna">
+                <a href="index.html" class="logo logo--branco">Design Responsivo</a>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam natus placeat, blanditiis quos ducimus saepe rerum possimus exercitationem. Expedita, aliquid? Laboriosam non natus officiis rerum corporis in laborum accusamus eius?</p>
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__itens" href="http://twitter.com/###" target="_blank">Twitter</a></li>
+                    <li><a class="rodape__lista-links__itens" href="https://instagram.com/###" target="_blank">Instagram</a></li>
+                    <li><a class="rodape__lista-links__itens" href="https://facebook.com/###" target="_blank">Facebook</a></li>
+                    <li><a class="rodape__lista-links__itens" href="https://youtube.com/###" target="_blank">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__itens" href="index.html" >Home</a></li>
+                    <li><a class="rodape__lista-links__itens" href="sobre.html" >Sobre nós</a></li>
+                    <li><a class="rodape__lista-links__itens" href="portfolio.html" >Portfolio</a></li>
+                    <li><a class="rodape__lista-links__itens" href="contato">Contato</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="rodape__linha-2">
+            ©2022 - Todos os direitos reservados - LCarllos
+        </div>
+    </footer>
+</body>
+</html>

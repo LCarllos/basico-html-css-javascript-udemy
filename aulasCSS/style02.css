@@ -1,0 +1,46 @@
+/*Pseudo-Classes*/
+
+/* pseudo-classe para gerar alguma ação ao passar o mouse em cima */
+a:hover {
+    font-size: 25px;
+}
+
+/* pseudo-classe para gerar alguma ação ao passar o mouse em cima, mas aqui puxou de uma DIV */
+div:hover {
+    background-color: brown;
+}
+
+p:first-child {
+    border:  1px solid #000;
+}
+
+p:last-child {
+    border: 1px solid #f00;
+}
+
+/* pseudo-classe para pegar parágrafos impares */
+p:nth-child(odd) {
+    background-color: blue;
+}
+
+/* pseudo-classe para pegar parágrafos pares */
+p:nth-child(even){ 
+    background-color: green;
+}
+
+/* Pseudo-Elemento -- Aqui todas as primeiras letras tiveram um destaque Obs: tem a diferença de usar o "::" */
+p::first-letter {
+    font-size: 30px;
+}
+
+/* Aqui deixa todas as primeiras linhas destacadas */
+p::first-line {
+    font-size: 25px;
+}
+
+/* Aqui mudará a cor de onde for selecionado através do mouse */
+p::selection {
+    background: yellow;
+}
+
+

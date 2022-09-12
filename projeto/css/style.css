@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@font-face{
+    font-family: "Soucer Sans Pro";
+    src: ('../fonts/source-sans-pro/Source-Sans-Pro-Regular.otf');
+}
+
+@font-face{
+    font-family: "Soucer Sans Pro";
+    src: ('../fonts/source-sans-pro/Source-Sans-Pro-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "Soucer Sans Pro";
+    src: ('../fonts/source-sans-pro/Source-Sans-Pro-BoldIt.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: "Source Sans Pro";
+}
+
+.cabecalho {
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.logo {
+    background-image: url("../img/logotipo-preto.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 120px;
+    height: 53px;
+    text-indent: -9999px; /*isso aqui foi gambiarra segundo o professor*/
+    margin: 0;
+}
+
+.logo--branco {
+    background-image: url("../img/logotipo-branco.png");
+}
+
+/*menu-principal*/
+.menu-principal__btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-color: white;
+    background-image: url('../img/menuprincipal-btn-bg.png');
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer; /*muda o iconi do mouse para um botão clicavel*/
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.menu-principal__btn--fechar {
+    background-position: -48, 7;
+}
+
+.menu-principal__lista {
+    padding: 0;
+    list-style: none;
+}
+
+.menu-principal__item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #343434;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 18px;
+}
+
+.menu-principal__item--atual{
+    color: rgb(236, 83, 83);
+}
+
+/* RODAPÉ */
+
+.rodape {
+    color: aliceblue;
+}
+
+.rodape .logo{
+    margin-bottom: 20px;
+}
+
+.rodape__linha-1{
+    background-color: #343434;
+    background-image: url("../img/rodape-bg.jpg");
+    background-size: cover;
+    padding: 15px;
+}
+
+.rodape__linha-2{
+    background-color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+.rodape__coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.rodape__titulo{
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
+}
+
+.rodape__lista-links {
+    padding: 0;
+    list-style: none;
+}
+
+.rodape__lista-links__itens {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom:  10px;
+    display: block;
+}
+
+.rodape__lista-links__itens::before {
+    content: '>';
+    margin-right: 8px;
+    color: orangered;
+}
